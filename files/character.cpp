@@ -11,7 +11,7 @@ public:
  int x;
  int y;
  unsigned int speed;
- qBMP *pic;
+ SDL_Surface *img;
 
  character()
  {

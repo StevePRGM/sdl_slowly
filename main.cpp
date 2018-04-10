@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-#include "files/mySDL.cpp"
+#include "files/qBMP.cpp"
 #include "files/character.cpp"
 #include "files/SDLinterface.cpp"
 
@@ -33,6 +33,7 @@ int main( int argc, char* args[] )
 
 
  character man1;
+ man1.img = xHi.xSurface;
 
  unsigned int i=0;
 
@@ -58,7 +59,7 @@ int main( int argc, char* args[] )
      //display
      case SDLK_2:
       printf(" key2 - display \n");
-      SDL_BlitSurface( xHi.xSurface, NULL, wind.xSurface, NULL );
+      SDL_BlitSurface( man1.img, NULL, wind.xSurface, NULL );
       rd->x = (unsigned int)man1.x;
       rd->y = 32;
       SDL_BlitSurface( xHi.xSurface, rs, wind.xSurface, rd );
