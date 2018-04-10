@@ -8,7 +8,7 @@ develop ‡character
  insert qBMP pointer »skin
 develop ‡zombie
 
-get ‡qBMP into ‡character
+--> get ‡qBMP into ‡character
 
 function "moveRect()" for easier movement
 #if(debug) for debug messages

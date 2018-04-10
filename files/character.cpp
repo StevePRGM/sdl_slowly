@@ -7,23 +7,32 @@
 */
 
 class character {
- public:
-  int x;
-  int y;
-  unsigned int speed;
-  qBMP *pic;
+public:
+ int x;
+ int y;
+ unsigned int speed;
+ qBMP *pic;
 
-  character() {
-   x=0;
-   y=0;
-   pic=NULL;
-  }
+ character()
+ {
+  x=0;
+  y=0;
+ }
+ ~character()
+ {
+ }
+
+ loadBMP(std::string file1)
+ {
+  printf("file1 = %s", file1.c_str());
+ }
 };
+
 class zombie {
- public:
-  int x;
-  int y;
-  qBMP *pic;
+public:
+ int x;
+ int y;
+ qBMP *pic;
 };
 
 

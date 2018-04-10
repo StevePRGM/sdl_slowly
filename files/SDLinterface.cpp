@@ -53,6 +53,8 @@ class SDL_interface {
   {
    if(this->haswindow==1) {
     SDL_DestroyWindow( this->xWindow );
+    this->xWindow = NULL;
+    this->xSurface = NULL;
     printf( "destroywindow() HAPPENED\n" );
    } else {
     printf( "@wind.destroywindow(), haswindow was 0.\n" );

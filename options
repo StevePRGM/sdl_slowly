@@ -3,6 +3,6 @@
 -lmingw32
 -lSDL2main
 -lSDL2
--omain
+-o"a SDL.exe"
 -w
 -Wl,-subsystem,console
