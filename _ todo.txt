@@ -1,0 +1,16 @@
+0135‡ 2479»
+===
+=== flow direction
+===
+
+develop ‡character
+ add a rect          »location
+ insert qBMP pointer »skin
+develop ‡zombie
+
+get ‡qBMP into ‡character
+
+function "moveRect()" for easier movement
+#if(debug) for debug messages
+
+.

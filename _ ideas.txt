@@ -1,0 +1,18 @@
+==== quests ====
+== making an SDL 'wrapper' or 'class'
+ benefits:
+  (by using class constructor/destructor, gain the following...)
+  1 line SDL_init
+  1 line window  load ( also, x.window_was_loaded=1 )
+  1 line graphic load ( also, x.graphic_was_loaded=1 )
+  window.autoDestroy() enabled
+  graphic.autoDestroy() enabled
+
+== setting up a 'font'
+
+== using Renderer instead of screenSurface (hardware rendering)
+ for speed improvements
+
+
+
+.

@@ -1,0 +1,8 @@
+-IC:/LIBS/SDL2_2.0.7/i686-w64-mingw32/include
+-LC:/LIBS/SDL2_2.0.7/i686-w64-mingw32/lib
+-lmingw32
+-lSDL2main
+-lSDL2
+-omain
+-w
+-Wl,-subsystem,console

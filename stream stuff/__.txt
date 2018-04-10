@@ -1,0 +1,7 @@
+look up how to use GIT gists better..
+
+use famitracker to make tunes while learning C++
+ (idea: every version gets more tune jam)
+
+
+.
